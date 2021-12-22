@@ -31,4 +31,7 @@
 `npm run api:run` to run the API mockup serving db.json
 
 ## Notes
-- [Edit this section if you want add any notes]
+- Navigate to the orgapp folder and install dependencies
+- `npm start` to run the application
+- Search in the text box and the results will be displayed in the SearchResults component
+- 'No results found' message will be displayed if the search key does not match any employee name
