@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.header span{
+    color: #f36d21;
+}
+
+@media all and (max-width: 600px) {
+    .header{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        padding: 1rem;
+    }
+}

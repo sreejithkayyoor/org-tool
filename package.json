@@ -1,0 +1,11 @@
+{
+  "name": "orgtool-exercise",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "api:run": "json-server --watch api/db.json --port 4000"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  }
+}

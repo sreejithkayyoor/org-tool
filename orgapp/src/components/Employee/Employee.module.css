@@ -1,0 +1,8 @@
+.employee{
+    display: flex;
+    flex-direction: column;
+}
+.employee div{
+    display: flex;
+    padding-left: 1rem;
+}

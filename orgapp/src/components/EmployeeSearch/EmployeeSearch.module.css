@@ -1,0 +1,37 @@
+.employee-search{
+    display: flex;
+    background-color: #eee;
+    flex-direction: column;    
+    padding: 1rem;
+}
+.employee-search div{
+    padding-left: 15rem;
+    display: flex;
+    align-content: flex-start;
+}
+.employee-search input{
+    width: 20rem;
+}
+.employee-search h2{
+    color: rgb(94, 92, 92);
+}
+
+
+@media all and (max-width: 600px) {
+    .employee-search{
+        display: flex;
+        background-color: #eee;
+        flex-flow: column wrap; 
+        align-content: flex-start;
+        padding: 1rem;
+        padding-left: 0rem;
+    }
+    .employee-search div{
+        padding-left: 0rem;
+        display: flex;
+        
+    }
+    .employee-search input{
+        width:auto;
+    }
+}

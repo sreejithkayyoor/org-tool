@@ -1,0 +1,34 @@
+.result{
+    display: flex;
+    flex-direction: column; 
+}
+.result-item{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 15rem;
+}
+
+.result-item-header{
+    display: flex;
+    padding-left: 16rem;
+    color: rgb(94, 92, 92);
+}
+
+@media all and (max-width: 600px) {
+    .result{
+        display: flex;
+        flex-direction: column; 
+        flex-flow: column wrap;
+        align-items: flex-start;
+    }
+    .result-item{
+        display: flex;
+        padding-left: 0px;
+    }
+
+    .result-item-header{
+        display: flex;
+        padding-left: 0px;
+        color: rgb(94, 92, 92);
+    }
+}
